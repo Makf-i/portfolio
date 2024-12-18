@@ -34,6 +34,7 @@ class UserCard extends StatelessWidget {
                       surfaceTintColor: Colors.green,
                       content: UserForm(
                         true,
+                        id: userModel.id,
                         name: userModel.name,
                         email: userModel.email,
                         address: userModel.address,
